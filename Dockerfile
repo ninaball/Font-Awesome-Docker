@@ -6,7 +6,6 @@ RUN apt-get update
 RUN apt-get -y install git nodejs ruby-dev
 RUN git clone https://github.com/FortAwesome/Font-Awesome.git /font-awesome
 RUN gem install bundler
-RUN gem install npm
 RUN npm install -g less
 RUN npm install -g less-plugin-clean-css
  
