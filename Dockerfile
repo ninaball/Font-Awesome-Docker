@@ -1,5 +1,5 @@
 
-FROM ruby:2.2.1
+FROM cloudgear/ruby:2.2
 MAINTAINER Nina Ball <nina.ball@gmail.com>
 
 
