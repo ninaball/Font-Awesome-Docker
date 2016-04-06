@@ -5,7 +5,7 @@ MAINTAINER Nina Ball <nina.ball@gmail.com>
 
  
 RUN apt-get update
-RUN apt-get -y install git nodejs ruby-dev build-essential npm util-linux-locales
+RUN apt-get -y install git nodejs ruby-dev build-essential npm locales
 RUN git clone https://github.com/FortAwesome/Font-Awesome.git /font-awesome
 RUN gem install bundler
 RUN npm install -g less
