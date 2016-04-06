@@ -1,5 +1,5 @@
 
-FROM ruby:2.3.0
+FROM ruby:2.2.1
 MAINTAINER Nina Ball <nina.ball@gmail.com>
 
 
