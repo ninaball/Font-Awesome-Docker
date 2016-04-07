@@ -1,5 +1,5 @@
 
-FROM cloudgear/ruby:2.2
+FROM ruby:2.3.0
 MAINTAINER Nina Ball <nina.ball@gmail.com>
 
 RUN apt-get update
