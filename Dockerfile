@@ -25,13 +25,6 @@ RUN bundle install
 RUN npm install
 RUN bundle exec jekyll build
 
-RUN set -ex \ 
-    && apt-get clean \
-    && apt-get autoclean \
-    && apt-get autoremove -y \
-    && rm -rf /var/lib/apt/lists/*
-
- 
 EXPOSE 7998
 #CMD rackup -o 0.0.0.0
 CMD bundle exec jekyll -w serve --trace
