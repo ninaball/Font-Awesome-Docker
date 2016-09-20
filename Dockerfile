@@ -4,7 +4,8 @@ MAINTAINER Nina Ball <nina.ball@gmail.com>
 
 RUN apt-get update
 RUN apt-get upgrade -y
-RUN apt-get -y install git nodejs ruby-dev build-essential locales zip npm apt-get clean && \
+RUN apt-get -y install git nodejs ruby-dev build-essential locales zip npm && \
+       apt-get clean && \
        apt-get autoclean && \
        apt-get autoremove -y && \
        rm -rf /var/lib/apt/lists/*
