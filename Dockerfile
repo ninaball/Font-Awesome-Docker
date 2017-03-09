@@ -25,6 +25,7 @@ RUN bundle install
 RUN npm install
 RUN bundle exec jekyll build
 
+
 EXPOSE 7998
 #CMD rackup -o 0.0.0.0
 CMD bundle exec jekyll -w serve --trace
