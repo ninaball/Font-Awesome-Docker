@@ -1,4 +1,4 @@
-FROM cloudgear/ruby:2.2
+FROM ruby:2.4
 MAINTAINER Nina Ball <nina.ball@gmail.com>
 
 RUN apt-get update && apt-get upgrade -y && \
